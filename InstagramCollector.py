@@ -15,7 +15,7 @@ from getpass import getpass
 class InstagramBot:
     def __init__(self):
         # Log
-        logging.basicConfig(filename="log.log", level=logging.INFO,
+        logging.basicConfig(filename="log.log", level=logging.WARNING,
                             format='%(asctime)s :: %(name)s :: %(levelname)s :: %(lineno)d :: %(message)s')
         self.log = logging.getLogger(__name__)
 
